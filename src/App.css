@@ -37,14 +37,16 @@
   }
 }
 
-
+.Body {
+  min-height: 100vh;
+}
 
 .headshot {
   height: 250px;
   width: 250px
 }
  
-.footerStyle {
+#footerStyle {
     position: absolute;
     color: black;
     font-size: 15px;
