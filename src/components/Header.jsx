@@ -10,11 +10,12 @@ function Header(props) {
     padding: "8px",
     width: "90%",
     margin: "auto",
+    color: "white",
   };
   return (
     <header>
-      <h1>My Portfolio Page</h1>
-      <nav style={navStyle}>
+      <h1>Portfolio</h1>
+      <nav style={navStyle} className="myNavStyle">
         <Link to="/">
           <div>Home</div>
         </Link>
